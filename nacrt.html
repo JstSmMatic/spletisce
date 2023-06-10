@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="sl">
+	<head>
+		<title>Nacrt</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Fitness website for training">
+		<meta name="author" content="Matic Eržen">
+		<link rel="icon" type="image/png" href="slike/RAOlogo.png">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<style>
+			@media screen and (max-width: 1050px) {
+			   #levo{
+				display: none;
+			   }
+			}
+		</style>
+	</head>
+	<body>
+		<header class="container-fluid">
+			<img id="logo" src="slike/RAOlogo.png" alt="logo" height="90px" width="90px">
+			<a href="index.html" id="naslov">Močno Telo</a>
+		</header>
+		<div class="container-fluid" id="meni">
+			<ul id="meni">
+				<li id="meni"><a id="meni" href="index.html">Domov</a></li>
+				<li id="meni"><a id="meni" href="nacrt.html">Načrt</a></li>
+				<li id="meni"><a id="meni" href="kontakt.html">Kontakt</a></li>
+				<li id="meni"><a id="meni" href="blog.html">Blog</a></li>
+			</ul>
+		</div>
+		<div id="vaja">
+			<div id="levo">
+				<nav id="navigacija" class=" position-fixed">
+					<nav class="nav nav-pills flex-column">
+						<a id="klik" class="nav-link active" href="#opis">Opis</a>
+						<a id="klik" class="nav-link active" href="#nacrt1">1. Načrt</a>
+						<a id="klik" class="nav-link active" href="#nacrt2">2. Načrt</a>
+						<a id="klik" class="nav-link active" href="#nacrt3">3. Načrt</a>
+					</nav>
+				</nav>
+			</div>
+			<div id="desno">
+				<div data-bs-spy="scroll" data-bs-target="#navigacija" data-bs-smooth-scroll="true" class="scrollspy-example-2">
+					<article id="opis">
+						<h2>Načrt treninga</h2>
+						<div id="pomembno">
+							Izbira pravega načrta treniranja za posameznika je ključnega pomena za doseganje optimalnih rezultatov in izpolnitev ciljev vadbe. Vsak posameznik ima edinstveno telesno kondicijo, cilje, potrebe in omejitve, zato je pomembno prilagoditi načrt vadbe tem specifičnim dejavnikom.
+						</div>
+						<ul>
+							<li>Pravi načrt treniranja upošteva vašo trenutno telesno pripravljenost, zdravstveno stanje, prehranjevalne navade, časovne omejitve in cilje vadbe. Z ustrezno prilagojenim načrtom boste optimizirali rezultate, zmanjšali tveganje za poškodbe in povečali učinkovitost vadbe.
+							</li>
+							<li>Naša spletna stran vam nudi prav to - strokovne smernice in nasvete pri izbiri pravega načrta treniranja, ki je prilagojen vašim potrebam in ciljem. Ponujamo različne programe vadbe, od začetniških do naprednih, ki vključujejo raznolike vaje, prilagojene obremenitve in napredno periodizacijo vadbe.
+							</li>
+						</ul>
+						<div style="overflow-x:auto;">
+							<table>
+								<thead>
+								<tr>
+									<td>Načrt</td>
+									<td>Ponedeljek</td>
+									<td>Torek</td>
+									<td>Sreda</td>
+									<td>Četrtek</td>
+									<td>Petek</td>
+									<td>Sobota</td>
+									<td>Nedelja</td>
+									<td>Ponedeljek</td>
+								</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Potisk, Vlečenje, Noge</td>
+										<td>Potisk</td>
+										<td>Vlečenje</td>
+										<td>Noge</td>
+										<td id="pocitek">Počitek</td>
+										<td>Potisk</td>
+										<td>Vlečenje</td>
+										<td>Noge</td>
+										<td id="pocitek">Počitek</td>
+									</tr>
+									<tr>
+										<td>Celo telo</td>
+										<td>Trening</td>
+										<td id="pocitek">Počitek</td>
+										<td>Trening</td>
+										<td id="pocitek">Počitek</td>
+										<td>Trening</td>
+										<td id="pocitek">Počitek</td>
+										<td id="pocitek">Počitek</td>
+										<td>Trening</td>
+									</tr>
+									<tr>
+										<td>Zgornji del, Spodnji del</td>
+										<td>Zgornji del</td>
+										<td>Spodnji del</td>
+										<td id="pocitek">Počitek</td>
+										<td>Zgornji del</td>
+										<td>Spodnji del</td>
+										<td id="pocitek">Počitek</td>
+										<td>Zgornji del</td>
+										<td>Spodnji del</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div id="pomembno">Poleg tega, da vam pomagamo pri izbiri pravega načrta treniranja, vam nudimo tudi podporo in motivacijo skozi celotno fitnes potovanje. Naša ekipa strokovnjakov je na voljo za odgovore na vaša vprašanja, nasvete o pravilni izvedbi vaj ter spodbujanje in navdihovanje za dosego vaših ciljev.
+						</div>
+					</article>
+					<article id="nacrt1">
+						<h4>Push, Pull, Legs</h4>
+						<div>Metoda treninga "push, pull, legs" je priljubljen in učinkovit način organiziranja treningov, ki ciljajo na različne mišične skupine. Ta metoda temelji na delitvi vadbenih dni v tri glavne skupine: push (potisk), pull (vlečenje) in legs (noge). Vsaka skupina vključuje vaje, ki se osredotočajo na specifične mišične skupine in gibe.</div>
+						<img src="slike/nacrt/nacrt1.png" alt="nacrt1">
+						<ol>
+							<li>Push (potisk): Na dan push treniranja se osredotočite na mišične skupine, ki so vključene v potiskajoče gibe. To vključuje prsne mišice, deltoidne mišice (ramenske mišice) in triceps. Primeri vaj za push trening so sklece, shoulder press, dips (potopi) in bench press (potisk s klopi).</li>
+							<a id="nacrtmisica" href="misice/prsa.html">Prsa</a>
+							<a id="nacrtmisica" href="misice/rame.html">Rame</a>
+							<a id="nacrtmisica" href="misice/triceps.html">Triceps</a>
+							<li>Pull (vlečenje): Na dan pull treniranja se osredotočite na mišične skupine, ki so vključene v vlečne gibe. To vključuje hrbtno mišičje, bicepse in deltoidne mišice zadnjega dela. Primeri vaj za pull trening so veslanje, pull-up (poteg na drogu), lat pulldown (vlečenje na lat mašini) in bicep curls (vlečenje s utežmi za bicepse).</li>
+							<a id="nacrtmisica" href="misice/hrbet.html">Hrbet</a>
+							<a id="nacrtmisica" href="misice/biceps.html">Biceps</a>
+							<li>Legs (noge): Na dan legs treniranja se osredotočite na mišične skupine nog. To vključuje stegenske mišice, meča in zadnjico. Primeri vaj za legs trening so počepi (squat), izpadni koraki (lunges), deadlift in izteg nog (leg extensions).</li>
+							<a id="nacrtmisica" href="misice/noge.html">Noge</a>
+						</ol>
+						<div>Ta način treninga omogoča enakomerno obremenitev telesa, saj se mišične skupine na različnih dnevih izmenjujejo. S tem se omogoča tudi dovolj časa za regeneracijo posameznih mišičnih skupin med treningi. Pomembno je prilagoditi intenziteto in obremenitev glede na lastne sposobnosti in cilje vadbe</div><br>
+						<div>Sistem push, pull, legs vam omogoča strukturirano in uravnoteženo vadbo, ki vključuje celotno telo. Redno izvajanje te metode treniranja lahko prispeva k povečanju mišične mase, izboljšanju moči, vzdržljivosti ter oblikovanju in definiciji mišic.</div>
+					</article>
+					<article id="nacrt2">
+						<h4>Celo telo(Full body)</h4>
+						<div>Metoda treninga "full body" se osredotoča na vadbo celotnega telesa v eni trening seansi. V tem načinu treniranja vključite vaje, ki ciljajo na različne mišične skupine po celem telesu. Glavna prednost tega načina treniranja je, da omogoča celovit trening v eni seansi, kar je še posebej koristno za začetnike ali tiste, ki imajo omejen čas za vadbo.</div>
+						<img src="slike/nacrt/nacrt2.png" alt="nacrt2">
+						<div>Pri treningu full body lahko izvajate več vaj za različne mišične skupine, vključno s prsnimi mišicami, hrbtnimi mišicami, ramenskimi mišicami, bicepsi, tricepsi, stegenskimi mišicami, meči in trebušnimi mišicami. Pomembno je izbrati raznolike vaje, ki vključujejo tako potiskajoče kot vlečne gibe, ter vaje za zgornji in spodnji del telesa.</div><br>
+						<a id="nacrtmisica" href="index.html#glavni">Vse mišice</a><br><br>
+						<div>Priporočeno je izvesti 8-12 različnih vaj, pri čemer se osredotočite na osnovne večzgibne vaje, kot so počepi (squat), mrtvi dvig (deadlift), sklece (push-ups), veslanje (rows), izpadni koraki (lunges) in ramenski potisk (overhead press). Dodajte lahko tudi izolacijske vaje, kot so bicep curls, tricep extensions, lateralne dvige z utežmi in trebušne vaje</div><br>
+						<div>Trening full body ponuja celovit pristop k treniranju, ki omogoča razvoj moči, mišične mase, vzdržljivosti in funkcionalnosti telesa. Prav tako je učinkovit pri povečanju metabolizma, izgubi maščobe in izboljšanju telesne pripravljenosti. Pomembno je prilagoditi trening svojim sposobnostim, ciljem in omejitvam ter se posvetovati z usposobljenim trenerjem, če potrebujete dodatno usmeritev pri izvajanju vaj in sestavi programa vadbe.</div>
+					</article>
+					<article id="nacrt3">
+						<h4>Upper, Lower</h4>
+						<div>Metoda treninga "upper, lower" je način razdelitve vadbenih dni na treninge zgornjega dela telesa (upper) in spodnjega dela telesa (lower). Ta pristop omogoča ciljno usmerjenost na specifične mišične skupine v posameznem treningu, kar omogoča večji obseg vadbe za vsak del telesa.</div>
+						<img src="slike/nacrt/nacrt3.png" alt="nacrt3">
+						<ol>
+							<li>Upper (zgornji del): Na dan upper treniranja se osredotočite na mišične skupine zgornjega dela telesa, kot so prsne mišice, deltoidne mišice (ramena), hrbtno mišičje, bicepsi in tricepsi. Primeri vaj za upper trening vključujejo bench press (potisk s klopi), sklece, veslanje, militarni potisk (military press), bicep curls (vlečenje s utežmi za bicepse) in tricep dips (potopi).</li>
+							<a id="nacrtmisica" href="misice/prsa.html">Prsa</a>
+							<a id="nacrtmisica" href="misice/rame.html">Rame</a>
+							<a id="nacrtmisica" href="misice/triceps.html">Triceps</a>
+							<a id="nacrtmisica" href="misice/hrbet.html">Hrbet</a>
+							<a id="nacrtmisica" href="misice/podlaht.html">Podlaht</a>
+							<a id="nacrtmisica" href="misice/biceps.html">Biceps</a>
+							<li>Lower (spodnji del): Na dan lower treniranja se osredotočite na mišične skupine spodnjega dela telesa, kot so stegenske mišice, meča, zadnjica in trebušne mišice. Primeri vaj za lower trening vključujejo počepi (squat), izpadni koraki (lunges), deadlift, izteg nog (leg extensions), mečne dvige (calf raises) in trebušne vaje, kot so plank (deska) in leg raises.</li>
+							<a id="nacrtmisica" href="misice/noge.html">Noge</a>
+							<a id="nacrtmisica" href="misice/trebuh.html">Trebuh</a>
+						</ol>
+						<div>Pri treningu upper, lower je priporočljivo izvajati treninge 3-4 krat na teden, kjer se izmenjujejo dnevi upper in lower. To omogoča zadostno okrevanje mišic med treningi. Pomembno je upoštevati pravilno tehniko izvajanja vaj, postopoma povečevati obremenitve in prilagajati vadbeni volumen glede na svoje sposobnosti.</div><br>
+						<div>Metoda upper, lower omogoča celovit trening telesa, saj se osredotoča na različne mišične skupine in omogoča ustrezno stimulacijo mišic za razvoj moči, mišične mase, vzdržljivosti in oblikovanje telesa. Prav tako omogoča večjo fleksibilnost pri prilagajanju treninga glede na lastne cilje in potrebe. Pri izvajanju treninga je vedno pomembno posvetiti pozornost varnosti, pravilni tehniki in pravilnemu ogrevanju pred treningom.</div>
+					</article>
+				</div>
+			</div>
+		</div>
+		<footer class="container-fluid text-center">
+			<div>
+				<a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+				<a href="#" data-toggle="tooltip" data-placement="top" title="Linkedin"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+				<a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+				<a href="#" data-toggle="tooltip" data-placement="top" title="Google+"><i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></a>
+				<a href="#" data-toggle="tooltip" data-placement="top" title="Youtube"><i class="fa fa-youtube-square fa-2x" aria-hidden="true"></i></a>
+				<a href="#" data-toggle="tooltip" data-placement="top" title="Snapchat"><i class="fa fa-snapchat-square fa-2x" aria-hidden="true"></i></a>
+				© Močno Telo 2023
+			</div>
+		</footer>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+	</body>
+</html>
+<script>
+  var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+    target: '#navigacija'
+  });
+  document.querySelectorAll('a.nav-link').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+</script>   

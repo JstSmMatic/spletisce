@@ -1,0 +1,365 @@
+#naslov{
+	color:white;
+	text-decoration: none;
+}
+header{
+	height:50px;
+	background-color: #464646;
+	color: white;
+	font-size: 2em;
+	letter-spacing: 3px;
+}
+
+ html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+	font-family: "roboto-condensed", sans-serif;
+	overflow-x: hidden;
+}
+article#glavni {
+    display: flex;
+    min-height: 90%;
+}
+    
+#center {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+	background: radial-gradient(closest-side, white, #71797E);
+}
+    
+#left {
+    background: linear-gradient(to left, #71797E, white);
+	padding: 100px;
+}
+    
+#right {
+    background: linear-gradient(to right, #71797E, white);
+	padding: 100px;
+}
+    
+#telo {
+    max-width: 100%;
+    max-height: 100%;
+	border: 1px solid black;
+	min-width: 200px;
+	padding: 0px!important;
+}
+img:hover {
+    transform: scale(1.04);
+	transition: all 2s;
+}
+footer{
+	background-color: #464646;
+	height:70px;
+	padding: 10px;
+	color: #eaeaea;
+}
+#razmik{
+	margin-top: 100px;
+	list-style-type: none;
+	text-align: center;
+	
+}
+#povezava{
+	position: relative;
+	display:block;
+	background-color: red;
+	padding: 20px 45px;
+	border-radius: 7px;
+	text-decoration: none;
+	color: white;
+	font-size: 1.5em;
+	box-shadow: 5px 5px 5px red;
+}
+#povezava:hover{
+	transform: scale(1.3);
+	transition: all 2s;
+}
+#vaja{
+	display: flex;
+	width: 100%;
+	background-color: #71797E;
+}
+.nav-pills .nav-link.active {
+	background-color: red;
+	color: white;
+	transform: scale(1.2);
+	transition-duration: 1s;
+}
+#desno{
+	flex: 4;
+}
+#levo{
+	flex: 1;
+	align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+#klik{
+	margin-top: 30px;
+	color: white;
+	font-weight: bold;
+}
+h2{
+	color: red;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+ul li{
+	list-style-type: none;
+}
+#opis, #vaja1, #vaja2, #vaja3, #vaja4, #vaja5, #nacrt1, #nacrt2, #nacrt3{
+	color: white;
+	margin-top: 20px;
+	padding: 10px;
+}
+#opis:hover, #vaja1:hover, #vaja2:hover, #vaja3:hover, #vaja4:hover, #vaja5:hover, #nacrt1:hover, #nacrt2:hover, #nacrt3:hover{
+	background-color: #899499;
+	transition-duration: 1s;
+}
+#pomembno{
+	font-size: 1.2em;
+	padding: 10px 0px;
+}
+div#meni{
+	background-color: #464646;
+	height: 40px;
+}
+ul#meni{
+	display: flex;
+	justify-content: right;
+}
+li#meni{
+	margin: 0px 20px;
+}
+li#meni:hover{
+	transform: scale(1.2);
+	transition: all 1s;
+}	
+a#meni{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: red;
+	padding: 10px;
+	border-radius: 5px;
+}
+#opozorilo{
+	background-color: #FA8072;
+	text-align: center;
+	color: #D70040;
+	padding: 20px;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+#noge{
+  display: flex;
+  align-items: flex-start;
+}
+
+#posamezne{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #71797E;
+}
+
+img{
+	display: block;
+	margin: auto;
+	padding: 10px;
+}
+#stran{
+	background-color: #71797E;
+	color: white;
+	font-size: 1.3em;
+	padding: 10px;
+}
+#skritaslika{
+	display: none;
+}
+#logo{
+	display: block;
+	float: left;
+}
+ol li{
+	display: list-item!important;
+	padding: 10px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+thead tr {
+  background-color: #464646;
+  color: white;
+  font-weight: bold;
+}
+
+tbody td:first-child {
+  background-color: #464646;
+  color: white;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #848884;
+}
+
+tbody tr:hover {
+  background-color: #B2BEB5;
+  transition: all 1s;
+}
+
+#pocitek {
+  background-color: #F88379!important;
+}
+
+#nacrtmisica {
+  position: relative;
+  display: inline-block;
+  background-color: red;
+  padding: 10px;
+  border-radius: 7px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.1em;
+  min-width: 10%;
+  text-align: center;
+  margin-right: 10px;
+}
+
+#nacrtmisica:hover {
+  transform: scale(1.1);
+  transition: 1s all;
+}
+form input, form textarea{
+	margin: 10px;
+}
+form{
+	width: 80%;
+	display: flex;
+	margin: auto;
+}
+#ena{flex: 1;
+	padding: 10px;}
+#dva{flex: 3;
+	padding: 10px;}
+.red:focus {
+      box-shadow: 0 0 2px 0.2rem rgba(255, 0, 0, 0.5);
+    }
+input[type="submit"]{
+	background-color: red;
+	border: none;
+}
+input[type="submit"]:hover{
+	background-color: red;
+	transform: scale(1.2);
+	transition: all 1s;
+}
+#zemljevid .container-fluid {
+  background-color: #efefef;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+#zemljevid #map {
+  width: 100%;
+  height: 500px;	
+}
+#pogovor{
+	color: white;
+	padding: 10px;
+	width: 60%;
+	background-color: #818589;
+	margin: 20px auto;
+	border-radius: 5px;
+}
+#pogovor:hover{
+	background-color: #899499;
+	transition-duration: 1s;
+}
+footer a { color: #eaeaea; }
+
+@media screen and (max-width: 1310px) {
+   article#glavni {
+	   background-image: url("../slike/telo.jpeg");
+	   background-repeat: no-repeat;
+	   justify-content: right;
+	   height: 920px;
+	}
+	#center{
+	  display: none;
+   }
+   #left, #right{
+	   position: relative;
+	   background: none;
+	   padding: 0px;
+	   margin: 0px;
+	   margin-right: 50px;
+   }
+   #menislika{
+	   display: none;
+   }
+   #skritaslika{
+	display: block;
+   }
+}
+@media screen and (max-width: 700px) {
+	#levo{
+	display: none;
+	}
+	body{max-width:100%;}
+	#meni {
+	width: 100%;
+	}
+	ul#meni{
+	display: block;
+	margin: auto;
+	width: 100%;
+	}
+	li#meni{
+		display: block;
+		padding: 10px;
+		width: 100%;
+		text-align: center;
+	}
+	li#meni:first-child{
+		padding-top:30px;
+	}
+	a#meni{
+		display: block;
+		width: 90%;
+	}
+	div#meni{
+		height: 280px;
+	}
+	table{
+		max-width: 80%;
+		display: block;
+		overflow-x: auto;
+		white-space: nowrap;
+	}
+	#nacrt1 img,#nacrt2 img,#nacrt3 img{display: none;}
+}
